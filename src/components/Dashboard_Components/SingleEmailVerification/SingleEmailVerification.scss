@@ -1,0 +1,44 @@
+.single-email-verification-main {
+  padding: 20px 10px;
+  h1 {
+    margin: 0 0 0 20px;
+  }
+  .single-email-search {
+    text-align: center;
+    margin: 100px 0 0 0;
+    p {
+      font-weight: 400;
+      font-size: 25px;
+    }
+    div {
+      input {
+        width: 320px;
+        font-size: 20px;
+        padding: 9px 15px;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        &::placeholder {
+          color: #aaa9b6;
+        }
+        &:focus {
+          outline: none;
+        }
+      }
+      button {
+        width: 70px;
+        padding: 10px 0;
+        font-size: 20px;
+        background-color: #5725d7;
+        color: #f8f8fc;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+// upcoming section
+.upcoming-section-text {
+  text-align: center;
+  margin: 23% 0 0 0;
+}

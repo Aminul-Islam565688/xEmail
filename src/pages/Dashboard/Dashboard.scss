@@ -1,0 +1,11 @@
+.dashboard-main {
+  display: grid;
+  grid-template-columns: 285px 1fr;
+  grid-template-rows: 100%;
+  nav {
+    background-color: #561ed5;
+  }
+  .dashboard-content {
+    background-color: #f8f8fc;
+  }
+}
